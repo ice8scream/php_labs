@@ -43,6 +43,6 @@ if( sqrt(pow($fcCX - $scCX , 2) + pow($fcCY - $scCY , 2)) <= $fcCR + $scCR) {
     echo "<p>Круги НЕ пересекаются</p>";
 }
 echo "<br>";
-echo '<a href="http://localhost/third-lab/index.php">Попробовать другие точки(назад)</a>';
+echo '<a href="http://localhost/php_labs/third-lab/index.php">Попробовать другие точки(назад)</a>';
 echo "\t</body>\n</html>";
 ?>

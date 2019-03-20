@@ -32,7 +32,7 @@
         <input type="number" name="fs1Y" value="-3" readonly>
 </div>
 
-<form action="http://localhost/third-lab/calc.php" method="get">
+<form action="http://localhost/php_labs/third-lab/calc.php" method="get">
     <span>Введите точки 1-го квадрата</span>
     <br>
     <span>1 Точка</span>
