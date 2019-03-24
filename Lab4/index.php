@@ -33,19 +33,19 @@
     </style>
 </head>
 <body>  
-<H1> Задайте две окружности четырьмя точками, определяющими диагонали двух прямоугольников в которые вписаны окружности. </h1>
-<H2> Этот заурядный сайт покажет пересекаются ли эти окружности, так же еще пару вещей :)</h2>
+<H1>В файле находится информация про множество Банков</h1>
+<H2> Этот заурядный сайт позволит вам добавить, найти или изменить параметры нужного вам банка</h2>
 <div>
         <h3>Пример</h3>
-        <span>Точка</span>
-        <input type="number" name="fs1X" value="1" readonly>
-        <input type="number" name="fs1Y" value="-3" readonly>
+        <span>Банк</span>
+        <input type="text" name="name" value="РНКБ" readonly><br>
+        <input type="text" name="country" value="Россия" readonly><br>
+        <input type="text" name="capital" value="$$$" readonly><br>
 </div>
 
 <form action="http://localhost/php_labs/Lab4/choose.php" method="get">
-    <span>Введите точки 1-го квадрата</span>
+    <span>Введите параметры нужного вам банка</span>
     <br>
-    <span>Банк</span><br>
     <input type="text" name="name" placeholder="Название"><br>
     <input type="text" name="country" placeholder="Страна"><br>
     <input type="text" name="capital" placeholder="Капитал"><br>
